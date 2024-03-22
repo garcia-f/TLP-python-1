@@ -1,12 +1,13 @@
 # Calcular el factorial de n sin *
 
-def suma(a, b):
-    return a +b
+# def suma(a, b):
+#     return a +b
 
 def multi(a, b):
     resultado = 0
     for _ in range(b):
-        resultado = suma(resultado, a)
+        # resultado = suma(resultado, a)
+        resultado = resultado + a
     return resultado
 
 def factorial(num):
